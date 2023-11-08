@@ -63,7 +63,9 @@ const NavBar = () => {
             </div>
           </div>
           <div className="h-full w-[17%] flex flex-1 justify-center items-center gap-8">
+            <Link to="/searchbar">
             <BsSearch className="text-2xl hover:text-gray-500 cursor-pointer" />
+            </Link>
             <Link to="/login">  
             <VscAccount
               className="text-2xl hover:text-gray-500 cursor-pointer"

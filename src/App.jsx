@@ -17,6 +17,7 @@ import Slides from "./Pages/Slides";
 import Accessories from "./Pages/Accessories";
 import ClearSale from "./Pages/ClearSale";
 import TrackOrder from "./Pages/TrackOrder";
+import SearchBar from "./Pages/SearchBar";
 
 function App() {
   return (
@@ -40,6 +41,8 @@ function App() {
           <Route path="/accessories" element={<Accessories />} />
           <Route path="/sale" element={<ClearSale />} />
           <Route path="/trackorder" element={<TrackOrder />} />
+          <Route path="/searchbar" element={<SearchBar />} />
+
         </Routes>
         <Footer />
       </Router>
